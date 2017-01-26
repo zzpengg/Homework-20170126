@@ -1,0 +1,36 @@
+{
+  "name": "homework-20170126",
+  "version": "1.0.0",
+  "description": "",
+  "private": false,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "NODE_ENV=test mocha ./*/**.spec.js"
+  },
+  "author": {
+    "name": "Ivan Wei",
+    "email": "scorpionseed@gmail.com",
+    "url": "https://blog.ivanwei.co"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "should": "^11.1.2",
+    "supertest": "^2.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/IvanWei/Homework-20170126.git"
+  },
+  "keywords": [
+    "homework"
+  ],
+  "bugs": {
+    "url": "https://github.com/IvanWei/Homework-20170126/issues"
+  },
+  "homepage": "https://github.com/IvanWei/Homework-20170126#readme"
+}
